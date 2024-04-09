@@ -17,35 +17,35 @@
     },
     {
       "id": 4,
-      "name": "Барои барраси",
+      "name": "Барои барраси тибки тартиби мукарраргардида",
       "status": false
     },
     {
       "id": 5,
       "name": "Барои хулоса",
-      "status": true
+      "status": false
     },
     {
       "id": 6,
       "name": "Барои мувофика",
-      "status": true
+      "status": false
     },
     {
       "id": 7,
       "name": "Барои тафтиш",
-      "status": true
+      "status": false
     },
     {
       "id": 8,
       "name": "Барои омузиш",
-      "status": true
+      "status": false
     }
   ],
   "visaListTemp": [
     {
-      "id": 1,
-      "name": "Барои корбари",
-      "status": false
+      "id": 4,
+      "name": "Барои барраси тибки тартиби мукарраргардида",
+      "status": true
     }
   ],
   "users": [
@@ -72,5 +72,20 @@
     }
   ],
   "userStructure": [],
-  "userChats": []
+  "userChats": [
+    {
+      "id": 2,
+      "name": "Қурбониён Сарвар",
+      "image": "https://i.ibb.co/zRQyxxP/image.jpg",
+      "role": "Заминистр",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Маҷиди Юсуф",
+      "role": "Заминистр",
+      "image": "https://i.ibb.co/fvwb1qX/image.jpg",
+      "status": false
+    }
+  ]
 }
