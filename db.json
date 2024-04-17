@@ -1,78 +1,96 @@
 {
   "visaList": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Барои корбари",
       "status": false
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Барои пешбари",
       "status": false
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Барои барраси ва пешниходи маълумоти мавриди назар",
       "status": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Барои барраси тибки тартиби мукарраргардида",
       "status": false
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Барои хулоса",
       "status": false
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Барои мувофика",
       "status": false
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Барои тафтиш",
       "status": false
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Барои омузиш",
       "status": false
     }
   ],
-  "visaListTemp": [
-    {
-      "id": 4,
-      "name": "Барои барраси тибки тартиби мукарраргардида",
-      "status": true
-    }
-  ],
+  "visaListTemp": [],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Қаҳҳорзода Файзиддин",
       "role": "Министр Финансов",
       "image": "https://i.ibb.co/HqvF08R/image.jpg",
-      "status": false
+      "status": false,
+      "userAuthId": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Қурбониён Сарвар",
       "role": "Заминистр",
       "image": "https://i.ibb.co/zRQyxxP/image.jpg",
-      "status": false
+      "status": false,
+      "userAuthId": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Маҷиди Юсуф",
       "role": "Заминистр",
       "image": "https://i.ibb.co/fvwb1qX/image.jpg",
-      "status": false
+      "status": false,
+      "userAuthId": "3"
+    }
+  ],
+  "usersAuth": [
+    {
+      "id": "1",
+      "login": "k.fayziddin",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "login": "s.sobir",
+      "password": "123"
+    },
+    {
+      "id": "3",
+      "login": "m.yusuf",
+      "password": "123"
     }
   ],
   "userStructure": [],
   "userChats": [],
-  "showUserChat": [],
+  "showUserChat": [
+    {
+      "id": 1713348340799
+    }
+  ],
   "messages": []
 }
