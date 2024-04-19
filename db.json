@@ -49,7 +49,8 @@
       "role": "Министр Финансов",
       "image": "https://i.ibb.co/HqvF08R/image.jpg",
       "status": false,
-      "userAuthId": "1"
+      "userAuthId": "1",
+      "login": "k.fayziddin"
     },
     {
       "id": "2",
@@ -57,7 +58,8 @@
       "role": "Заминистр",
       "image": "https://i.ibb.co/zRQyxxP/image.jpg",
       "status": false,
-      "userAuthId": "2"
+      "userAuthId": "2",
+      "login": "s.sobir"
     },
     {
       "id": "3",
@@ -65,13 +67,14 @@
       "role": "Заминистр",
       "image": "https://i.ibb.co/fvwb1qX/image.jpg",
       "status": false,
-      "userAuthId": "3"
+      "userAuthId": "3",
+      "login": "m.yusuf"
     }
   ],
   "usersAuth": [
     {
       "id": "1",
-      "login": "k.fayziddin",
+      "login": "f.kahorzoda",
       "password": "123"
     },
     {
@@ -87,10 +90,6 @@
   ],
   "userStructure": [],
   "userChats": [],
-  "showUserChat": [
-    {
-      "id": 1713348340799
-    }
-  ],
+  "showUserChat": [],
   "messages": []
 }
