@@ -41,11 +41,17 @@
       "status": false
     }
   ],
-  "visaListTemp": [],
+  "visaListTemp": [
+    {
+      "id": "5",
+      "name": "Барои хулоса",
+      "status": true
+    }
+  ],
   "users": [
     {
       "id": "1",
-      "name": "Қаҳҳорзода Файзиддин",
+      "name": "Файзиддин Саттор",
       "role": "Министр Финансов",
       "image": "https://i.ibb.co/HqvF08R/image.jpg",
       "status": false,
@@ -54,7 +60,7 @@
     },
     {
       "id": "2",
-      "name": "Қурбониён Сарвар",
+      "name": "Сарвар Собирович",
       "role": "Заминистр",
       "image": "https://i.ibb.co/zRQyxxP/image.jpg",
       "status": false,
@@ -63,7 +69,7 @@
     },
     {
       "id": "3",
-      "name": "Маҷиди Юсуф",
+      "name": "Юсуф Хайрулло",
       "role": "Заминистр",
       "image": "https://i.ibb.co/fvwb1qX/image.jpg",
       "status": false,
@@ -79,17 +85,44 @@
     },
     {
       "id": "2",
-      "login": "s.sobir",
+      "login": "s.sobirovich",
       "password": "123"
     },
     {
       "id": "3",
-      "login": "m.yusuf",
+      "login": "y.khayrullo",
       "password": "123"
     }
   ],
   "userStructure": [],
-  "userChats": [],
-  "showUserChat": [],
-  "messages": []
+  "userChats": [
+    {
+      "id": "2",
+      "name": "Сарвар Собирович",
+      "image": "https://i.ibb.co/zRQyxxP/image.jpg",
+      "role": "Заминистр",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Юсуф Хайрулло",
+      "image": "https://i.ibb.co/fvwb1qX/image.jpg",
+      "role": "Заминистр",
+      "status": false
+    }
+  ],
+  "showUserChat": [
+    {
+      "id": "1713508565767"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1713520141607",
+      "userChatId": "2",
+      "text": "Салом",
+      "userAuthId": "2",
+      "dateTime": "14:49"
+    }
+  ]
 }
