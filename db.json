@@ -2,22 +2,22 @@
   "visaList": [
     {
       "id": "1",
-      "name": "Барои корбари",
-      "status": false
-    },
-    {
-      "id": "2",
-      "name": "Барои пешбари",
-      "status": false
-    },
-    {
-      "id": "3",
       "name": "Барои барраси ва пешниходи маълумоти мавриди назар",
       "status": false
     },
     {
-      "id": "4",
+      "id": "2",
       "name": "Барои барраси тибки тартиби мукарраргардида",
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "Барои корбари",
+      "status": false
+    },
+    {
+      "id": "4",
+      "name": "Барои пешбари",
       "status": false
     },
     {
@@ -41,11 +41,27 @@
       "status": false
     }
   ],
-  "visaListTemp": [
+  "visaListTemp": [],
+  "termDate": [
     {
-      "id": "5",
-      "name": "Барои хулоса",
-      "status": true
+      "id": "1713773391011",
+      "date": "2024-04-25"
+    }
+  ],
+  "visaStatus": [
+    {
+      "id": "1",
+      "status": "Фаври"
+    },
+    {
+      "id": "2",
+      "status": "Назорати"
+    }
+  ],
+  "visaStatusTemp": [
+    {
+      "id": "1713773394745",
+      "status": "Назорати"
     }
   ],
   "users": [
@@ -95,34 +111,7 @@
     }
   ],
   "userStructure": [],
-  "userChats": [
-    {
-      "id": "2",
-      "name": "Сарвар Собирович",
-      "image": "https://i.ibb.co/zRQyxxP/image.jpg",
-      "role": "Заминистр",
-      "status": true
-    },
-    {
-      "id": "3",
-      "name": "Юсуф Хайрулло",
-      "image": "https://i.ibb.co/fvwb1qX/image.jpg",
-      "role": "Заминистр",
-      "status": false
-    }
-  ],
-  "showUserChat": [
-    {
-      "id": "1713508565767"
-    }
-  ],
-  "messages": [
-    {
-      "id": "1713520141607",
-      "userChatId": "2",
-      "text": "Салом",
-      "userAuthId": "2",
-      "dateTime": "14:49"
-    }
-  ]
+  "userChats": [],
+  "showUserChat": [],
+  "messages": []
 }
