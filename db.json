@@ -43,7 +43,16 @@
   ],
   "visaListTemp": [],
   "termDate": [],
-  "visaStatus": [],
+  "visaStatus": [
+    {
+      "id": "1",
+      "status": "Фаври"
+    },
+    {
+      "id": "2",
+      "status": "Назорати"
+    }
+  ],
   "visaStatusTemp": [],
   "users": [
     {
@@ -92,22 +101,7 @@
     }
   ],
   "userStructure": [],
-  "userChats": [
-    {
-      "id": "2",
-      "name": "Сарвар Собирович",
-      "image": "https://i.ibb.co/zRQyxxP/image.jpg",
-      "role": "Заминистр",
-      "status": false
-    },
-    {
-      "id": "3",
-      "name": "Юсуф Хайрулло",
-      "image": "https://i.ibb.co/fvwb1qX/image.jpg",
-      "role": "Заминистр",
-      "status": true
-    }
-  ],
+  "userChats": [],
   "showUserChat": [],
   "messages": []
 }
