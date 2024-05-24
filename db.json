@@ -2,47 +2,80 @@
   "visaList": [
     {
       "id": "1",
-      "name": "Барои барраси ва пешниходи маълумоти мавриди назар",
-      "status": false
-    },
+      "userAuthId": "1",
+      "defaultVisa": [
+        {
+          "id": "1",
+          "name": "Барои барраси ва пешниходи маълумоти мавриди назар",
+          "status": false
+        },
+        {
+          "id": "2",
+          "name": "Барои барраси тибки тартиби мукарраргардида",
+          "status": false
+        },
+        {
+          "id": "3",
+          "name": "Барои корбари",
+          "status": false
+        },
+        {
+          "id": "4",
+          "name": "Барои пешбари",
+          "status": false
+        },
+        {
+          "id": "5",
+          "name": "Барои хулоса",
+          "status": false
+        },
+        {
+          "id": "6",
+          "name": "Барои мувофика",
+          "status": false
+        },
+        {
+          "id": "7",
+          "name": "Барои тафтиш",
+          "status": false
+        },
+        {
+          "id": "8",
+          "name": "Барои омузиш",
+          "status": false
+        }
+      ],
+      "ownVisa": [
+        {
+          "id": "1",
+          "name": "Барои омузиш ва тафтиш",
+          "status": false
+        },
+        {
+          "id": "2",
+          "name": "Барои тафтиш ва мувофика",
+          "status": false
+        }
+      ]
+    }
+  ],
+  "visaListTemp": [
     {
       "id": "2",
       "name": "Барои барраси тибки тартиби мукарраргардида",
-      "status": false
-    },
-    {
-      "id": "3",
-      "name": "Барои корбари",
-      "status": false
-    },
-    {
-      "id": "4",
-      "name": "Барои пешбари",
-      "status": false
-    },
-    {
-      "id": "5",
-      "name": "Барои хулоса",
-      "status": false
-    },
-    {
-      "id": "6",
-      "name": "Барои мувофика",
-      "status": false
-    },
-    {
-      "id": "7",
-      "name": "Барои тафтиш",
-      "status": false
-    },
-    {
-      "id": "8",
-      "name": "Барои омузиш",
-      "status": false
+      "status": true
     }
   ],
-  "visaListTemp": [],
-  "termDate": [],
+  "termDate": [
+    {
+      "id": "1713773391011",
+      "date": "2024-04-25"
+    },
+    {
+      "id": "1714793231847",
+      "date": "2024-05-18"
+    }
+  ],
   "visaStatus": [
     {
       "id": "1",
@@ -53,7 +86,20 @@
       "status": "Назорати"
     }
   ],
-  "visaStatusTemp": [],
+  "visaStatusTemp": [
+    {
+      "id": "1713773394745",
+      "status": "Назорати"
+    },
+    {
+      "id": "1714793240150",
+      "status": "Назорати"
+    },
+    {
+      "id": "1714793241190",
+      "status": "Фаври"
+    }
+  ],
   "users": [
     {
       "id": "1",
@@ -62,7 +108,7 @@
       "image": "https://i.ibb.co/HqvF08R/image.jpg",
       "status": false,
       "userAuthId": "1",
-      "login": "k.fayziddin"
+      "login": "f.kahhorzoda"
     },
     {
       "id": "2",
@@ -71,7 +117,7 @@
       "image": "https://i.ibb.co/zRQyxxP/image.jpg",
       "status": false,
       "userAuthId": "2",
-      "login": "s.sobir"
+      "login": "s.sobirovich"
     },
     {
       "id": "3",
@@ -80,13 +126,22 @@
       "image": "https://i.ibb.co/fvwb1qX/image.jpg",
       "status": false,
       "userAuthId": "3",
-      "login": "m.yusuf"
+      "login": "y.khayrullo"
+    },
+    {
+      "id": "4",
+      "name": "Акрамшох Рамазонович",
+      "role": "Директор",
+      "image": "http://10.10.80.184:89/FileStorage/UserPicture/216/583_IMG_6443_47034.jpg?SignKey=haXzk68YbLYm6zIpsZZyH8m/h1/oJNK8fkR37TQjEI2HcD0VSc9U3/RY8R5Wp+wW&expiredTime=2024-05-21%2005:44:43&fileName=583_IMG_6443_47034.jpg",
+      "status": false,
+      "userAuthId": "4",
+      "login": "a.ramazonovich"
     }
   ],
   "usersAuth": [
     {
       "id": "1",
-      "login": "f.kahorzoda",
+      "login": "f.kahhorzoda",
       "password": "123"
     },
     {
@@ -98,11 +153,208 @@
       "id": "3",
       "login": "y.khayrullo",
       "password": "123"
+    },
+    {
+      "id": "4",
+      "login": "a.ramazonovich",
+      "password": "123"
     }
   ],
   "userStructure": [],
-  "userChats": [],
-  "showUserChat": [],
-  "messages": []
-  
-} 
+  "userChats": [
+    {
+      "id": "2",
+      "name": "Сарвар Собирович",
+      "image": "https://i.ibb.co/zRQyxxP/image.jpg",
+      "role": "Заминистр",
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "Юсуф Хайрулло",
+      "image": "https://i.ibb.co/fvwb1qX/image.jpg",
+      "role": "Заминистр",
+      "status": true
+    }
+  ],
+  "showUserChat": [
+    {
+      "id": "1714793244062"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1714797947877",
+      "userChatId": "2",
+      "text": "Предоставьте свой ответ по этому поводу!",
+      "userAuthId": "1",
+      "dateTime": "09:45",
+      "replyMessage": {}
+    },
+    {
+      "id": "1714798006373",
+      "userChatId": "2",
+      "text": "Уважаемый Файзиддин Саттор, данный проект о котором идёт речь в предоставленном письме, содержит несколько аспектов которых необходимо проанализировать со специалистами из бюджетного департамента. Связи с этим, необходимо консультанство со стороны специалистов из бюджетнго департамента.",
+      "userAuthId": "2",
+      "dateTime": "09:46",
+      "replyMessage": {
+        "id": "1",
+        "name": "Файзиддин Саттор",
+        "text": "Предоставьте свой ответ по этому поводу!"
+      }
+    },
+    {
+      "id": "1714798104755",
+      "userChatId": "2",
+      "text": "Решите этот вопрос и предоставьте свой ответ!",
+      "userAuthId": "1",
+      "dateTime": "09:48",
+      "replyMessage": {
+        "id": "2",
+        "name": "Сарвар Собирович",
+        "text": "Уважаемый Файзиддин Саттор, данный проект о котором идёт речь в предоставленном письме, содержит несколько аспектов которых необходимо проанализировать со специалистами из бюджетного департамента. Связи с этим, необходимо консультанство со стороны специалистов из бюджетнго департамента."
+      }
+    },
+    {
+      "id": "1714800681980",
+      "userChatId": "2",
+      "text": "Вопрос решен, письмо прикреплено, прошу рассмотреть!",
+      "userAuthId": "2",
+      "dateTime": "10:31",
+      "replyMessage": {
+        "id": "1",
+        "name": "Файзиддин Саттор",
+        "text": "Решите этот вопрос и предоставьте свой ответ!"
+      }
+    },
+    {
+      "id": "1716454578715",
+      "userChatId": "3",
+      "text": "1",
+      "userAuthId": "3",
+      "dateTime": "13:56",
+      "replyMessage": {}
+    }
+  ],
+  "defaultVisa": [
+    {
+      "id": "1",
+      "name": "Барои барраси ва пешниходи маълумоти мавриди назар",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "2",
+      "name": "Барои барраси тибки тартиби мукарраргардида",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "3",
+      "name": "Барои корбари",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "4",
+      "name": "Барои пешбари",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "5",
+      "name": "Барои хулоса",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "6",
+      "name": "Барои мувофика",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "7",
+      "name": "Барои тафтиш",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "8",
+      "name": "Барои омузиш",
+      "status": false,
+      "visaUserId": "3"
+    }
+  ],
+  "ownVisa": [
+    {
+      "id": "1",
+      "name": "Барои омузиш ва тафтиш",
+      "status": false,
+      "visaUserId": "3"
+    },
+    {
+      "id": "2",
+      "name": "Барои тафтиш ва мувофика",
+      "status": false,
+      "visaUserId": "3"
+    }
+  ],
+  "userStructureExecutor": [],
+  "subUserChats": [
+    {
+      "id": "4",
+      "name": "Акрамшох Рамазонович",
+      "role": "Директор",
+      "image": "http://10.10.80.184:89/FileStorage/UserPicture/216/583_IMG_6443_47034.jpg?SignKey=haXzk68YbLYm6zIpsZZyH8m/h1/oJNK8fkR37TQjEI2HcD0VSc9U3/RY8R5Wp+wW&expiredTime=2024-05-21%2005:44:43&fileName=583_IMG_6443_47034.jpg",
+      "status": false,
+      "login": "a.ramazonovich",
+      "userAuthId": "4",
+      "userChatId": "2"
+    },
+    {
+      "id": "4",
+      "name": "Акрамшох Рамазонович",
+      "role": "Директор",
+      "image": "http://10.10.80.184:89/FileStorage/UserPicture/216/583_IMG_6443_47034.jpg?SignKey=haXzk68YbLYm6zIpsZZyH8m/h1/oJNK8fkR37TQjEI2HcD0VSc9U3/RY8R5Wp+wW&expiredTime=2024-05-21%2005:44:43&fileName=583_IMG_6443_47034.jpg",
+      "status": false,
+      "login": "a.ramazonovich",
+      "userAuthId": "4",
+      "userChatId": "3"
+    }
+  ],
+  "visaUsers": [
+    {
+      "id": "2",
+      "userAuthId": "2",
+      "login": "s.sobirovich",
+      "term": "",
+      "status": "",
+      "eds": "",
+      "createdAt": "23-05-2024"
+    },
+    {
+      "id": "3",
+      "userAuthId": "3",
+      "login": "y.khayrullo",
+      "term": "",
+      "status": "",
+      "eds": "",
+      "createdAt": "23-05-2024"
+    }
+  ],
+  "visaMessage": [
+    {
+      "id": "6",
+      "name": "Барои мувофика",
+      "status": true,
+      "visaUserId": "2"
+    },
+    {
+      "id": "8",
+      "name": "Барои омузиш",
+      "status": true,
+      "visaUserId": "3"
+    }
+  ]
+}
