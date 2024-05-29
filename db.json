@@ -237,7 +237,7 @@
       "name": "Сарвар Собирович",
       "image": "https://i.ibb.co/zRQyxxP/image.jpg",
       "role": "Заминистр",
-      "status": true
+      "status": false
     },
     {
       "id": "3",
@@ -387,7 +387,7 @@
       "name": "Акрамшох Рамазонович",
       "role": "Директор",
       "image": "https://i.ibb.co/Kb1V9nM/583-IMG-6443-47034.png",
-      "status": false,
+      "status": true,
       "login": "a.ramazonovich",
       "userAuthId": "4",
       "userChatId": "3"
@@ -397,7 +397,7 @@
       "name": "Заъфар Исмоил",
       "role": "Начальник гл.управление",
       "image": "https://i.ibb.co/3Mctzwb/image.png",
-      "status": true,
+      "status": false,
       "login": "z.ismoil",
       "userAuthId": "5",
       "userChatId": "2"
